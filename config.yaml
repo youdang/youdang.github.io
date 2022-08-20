@@ -1,0 +1,30 @@
+baseURL: https://youdang.github.io/
+languageCode: zh-cn
+title: progape's blog
+theme: hugo-book
+
+################################################################################
+# hugo-book specified configurations
+################################################################################
+disablePathToLower: true
+enableGitInfo: true
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+
+# Needed for mermaid/katex shortcodes
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+
+params:
+  BookTheme: light
+  BookToc: true
+  BookSection: docs
+  BookRepo: https://github.com/youdang/youdang.github.io
+  BookCommitPath: commit
+  BookSearch: true
+  BookComments: true
