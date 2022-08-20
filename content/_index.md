@@ -4,6 +4,9 @@ menu:
   after:
     name: about-me
     weight: 2
+bookToC: false
+bookComments: false
+bookSearchExclude: true
 ---
 
 # About Me

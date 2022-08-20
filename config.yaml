@@ -24,7 +24,5 @@ params:
   BookTheme: light
   BookToc: true
   BookSection: docs
-  BookRepo: https://github.com/youdang/youdang.github.io
-  BookCommitPath: commit
   BookSearch: true
   BookComments: true
